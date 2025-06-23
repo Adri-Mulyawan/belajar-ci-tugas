@@ -43,7 +43,6 @@ class ProdukController extends BaseController
 
     return redirect('produk')->with('success', 'Data Berhasil Ditambah');
 } 
-
 public function edit($id)
 {
     $dataProduk = $this->product->find($id);
